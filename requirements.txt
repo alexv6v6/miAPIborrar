@@ -1,11 +1,10 @@
 numpy
 pandas
 scikit-learn
-streamlit
 matplotlib
-Flask
 gunicorn
 xgboost
 uvicorn
 fastapi
 pydantic
+joblib
