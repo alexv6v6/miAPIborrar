@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'apientregable2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_939F9EFD566F409683629399CEC5848B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_09DB36EEC6FC4548A2954D09CD301A28 }}
