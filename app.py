@@ -24,7 +24,7 @@ def load_model():
     encoder = OneHotEncoder()
     encoder.fit(X[['Municipio', 'Tipo']])
 
-@app.post("/predict/")
+@app.post("/predict")
 async def predict(pinput: PredictionInput):
     municipio = pinput.municipio
     tipo = pinput.tipo
